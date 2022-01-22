@@ -13,5 +13,6 @@ router.post('/login', loggedinUser);
 
 router.post('/confirm-user', confirmEmail);
 
+router.post('/confirm-user/:secretToken', confirmEmail);
 
 module.exports = router;
